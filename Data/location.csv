@@ -1,0 +1,8 @@
+clinic_code,clinic_name,address_line1,city,state,zip_code,region
+CLN1001,Dallas Central Clinic,1201 Elm St,Dallas,TX,75201,North Texas
+CLN1002,Plano Family Care,410 Legacy Dr,Plano,TX,75024,North Texas
+CLN1003,Irving Specialty Center,850 MacArthur Blvd,Irving,TX,75063,North Texas
+CLN1004,Frisco Medical Plaza,7200 Main St,Frisco,TX,75034,North Texas
+CLN1005,Arlington Health Hub,1500 Cooper St,Arlington,TX,76010,North Texas
+CLN1006,North Texas Community Hospital,2200 Oak Grove Rd,Dallas,TX,75217,North Texas
+CLN1007,Lakeside Multi-Specialty Clinic,9550 Lakeview Pkwy,Rowlett,TX,75088,North Texas

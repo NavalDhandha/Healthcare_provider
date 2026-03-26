@@ -1,0 +1,31 @@
+provider_id,provider_name,home_clinic_code,home_clinic_name,specialty,department,active_flag
+PRV1000,Dr. Ava Patel,CLN1003,Irving Specialty Center,Urgent Care,Outpatient Operations,1
+PRV1001,Dr. Liam Chen,CLN1003,Irving Specialty Center,Family Medicine,Ambulatory Care,1
+PRV1002,Dr. Noah Garcia,CLN1003,Irving Specialty Center,Primary Care,General Medicine,1
+PRV1003,Dr. Emma Johnson,CLN1004,Frisco Medical Plaza,Primary Care,General Medicine,1
+PRV1004,Dr. Sophia Kim,CLN1003,Irving Specialty Center,Family Medicine,Ambulatory Care,1
+PRV1005,Dr. Ethan Martinez,CLN1007,Lakeside Multi-Specialty Clinic,Primary Care,Specialty Services,1
+PRV1006,Dr. Mia Thompson,CLN1001,Dallas Central Clinic,Internal Medicine,Ambulatory Care,1
+PRV1007,Dr. Lucas Brown,CLN1007,Lakeside Multi-Specialty Clinic,Internal Medicine,Preventive Care,1
+PRV1008,Dr. Isabella Davis,CLN1007,Lakeside Multi-Specialty Clinic,Urgent Care,General Medicine,1
+PRV1009,Dr. Mason Wilson,CLN1005,Arlington Health Hub,Urgent Care,Preventive Care,1
+PRV1010,Dr. Harper Moore,CLN1006,North Texas Community Hospital,Primary Care,General Medicine,1
+PRV1011,Dr. James Taylor,CLN1002,Plano Family Care,Cardiology,Ambulatory Care,1
+PRV1012,Dr. Amelia Anderson,CLN1003,Irving Specialty Center,Cardiology,General Medicine,1
+PRV1013,Dr. Benjamin Thomas,CLN1004,Frisco Medical Plaza,Family Medicine,General Medicine,1
+PRV1014,Dr. Charlotte White,CLN1007,Lakeside Multi-Specialty Clinic,Cardiology,Ambulatory Care,1
+PRV1015,Dr. Elijah Harris,CLN1007,Lakeside Multi-Specialty Clinic,Urgent Care,Chronic Care,1
+PRV1016,Dr. Evelyn Martin,CLN1006,North Texas Community Hospital,Endocrinology,Specialty Services,1
+PRV1017,Dr. Henry Clark,CLN1006,North Texas Community Hospital,Primary Care,Outpatient Operations,1
+PRV1018,Dr. Abigail Lewis,CLN1003,Irving Specialty Center,Pediatrics,Ambulatory Care,1
+PRV1019,Dr. Daniel Walker,CLN1002,Plano Family Care,Primary Care,Preventive Care,1
+PRV1020,Dr. Grace Hall,CLN1004,Frisco Medical Plaza,Urgent Care,Ambulatory Care,1
+PRV1021,Dr. Michael Allen,CLN1002,Plano Family Care,Urgent Care,Outpatient Operations,1
+PRV1022,Dr. Lily Young,CLN1007,Lakeside Multi-Specialty Clinic,Urgent Care,Preventive Care,1
+PRV1023,Dr. Sebastian King,CLN1005,Arlington Health Hub,Orthopedics,Specialty Services,1
+PRV1024,Dr. Chloe Wright,CLN1001,Dallas Central Clinic,Urgent Care,General Medicine,1
+PRV1025,Dr. Jack Robinson,CLN1005,Arlington Health Hub,Primary Care,Specialty Services,1
+PRV1026,Dr. Ella Scott,CLN1007,Lakeside Multi-Specialty Clinic,Endocrinology,Ambulatory Care,1
+PRV1027,Dr. Samuel Green,CLN1003,Irving Specialty Center,Internal Medicine,Preventive Care,1
+PRV1028,Dr. Zoe Adams,CLN1001,Dallas Central Clinic,Endocrinology,General Medicine,1
+PRV1029,Dr. David Baker,CLN1004,Frisco Medical Plaza,Family Medicine,General Medicine,1
