@@ -1,0 +1,6 @@
+[
+  {'file':'provider'},
+  {'file':'appointments'},
+  {'file':'location'},
+  {'file':'patient'}
+]
