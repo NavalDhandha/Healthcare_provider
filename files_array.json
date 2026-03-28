@@ -1,6 +1,361 @@
 [
-  {'file':'provider'},
-  {'file':'appointments'},
-  {'file':'location'},
-  {'file':'patient'}
+  {'file':'provider',
+	'columns':{
+            "type": "TabularTranslator",
+            "mappings": [
+                {
+                    "source": {
+                        "name": "provider_id",
+                        "type": "String"
+                    },
+                    "sink": {
+                        "path": "$['provider_id']"
+                    }
+                },
+                {
+                    "source": {
+                        "name": "provider_name",
+                        "type": "String"
+                    },
+                    "sink": {
+                        "path": "$['provider_name']"
+                    }
+                },
+                {
+                    "source": {
+                        "name": "home_clinic_code",
+                        "type": "String"
+                    },
+                    "sink": {
+                        "path": "$['home_clinic_code']"
+                    }
+                },
+                {
+                    "source": {
+                        "name": "home_clinic_name",
+                        "type": "String"
+                    },
+                    "sink": {
+                        "path": "$['home_clinic_name']"
+                    }
+                },
+                {
+                    "source": {
+                        "name": "specialty",
+                        "type": "String"
+                    },
+                    "sink": {
+                        "path": "$['specialty']"
+                    }
+                },
+                {
+                    "source": {
+                        "name": "department",
+                        "type": "String"
+                    },
+                    "sink": {
+                        "path": "$['department']"
+                    }
+                },
+                {
+                    "source": {
+                        "name": "active_flag",
+                        "type": "String"
+                    },
+                    "sink": {
+                        "path": "$['active_flag']"
+                    }
+                }
+            ]
+        }
+	},
+  {'file':'appointments',
+	'columns': {"type": "TabularTranslator",
+            "mappings": [
+                {
+                    "source": {
+                        "name": "appointment_id",
+                        "type": "String"
+                    },
+                    "sink": {
+                        "path": "$['appointment_id']"
+                    }
+                },
+                {
+                    "source": {
+                        "name": "provider_id",
+                        "type": "String"
+                    },
+                    "sink": {
+                        "path": "$['provider_id']"
+                    }
+                },
+                {
+                    "source": {
+                        "name": "provider_name",
+                        "type": "String"
+                    },
+                    "sink": {
+                        "path": "$['provider_name']"
+                    }
+                },
+                {
+                    "source": {
+                        "name": "clinic_code",
+                        "type": "String"
+                    },
+                    "sink": {
+                        "path": "$['clinic_code']"
+                    }
+                },
+                {
+                    "source": {
+                        "name": "clinic_name",
+                        "type": "String"
+                    },
+                    "sink": {
+                        "path": "$['clinic_name']"
+                    }
+                },
+                {
+                    "source": {
+                        "name": "patient_id",
+                        "type": "String"
+                    },
+                    "sink": {
+                        "path": "$['patient_id']"
+                    }
+                },
+                {
+                    "source": {
+                        "name": "mr_number",
+                        "type": "String"
+                    },
+                    "sink": {
+                        "path": "$['mr_number']"
+                    }
+                },
+                {
+                    "source": {
+                        "name": "appointment_date",
+                        "type": "String"
+                    },
+                    "sink": {
+                        "path": "$['appointment_date']"
+                    }
+                },
+                {
+                    "source": {
+                        "name": "appointment_time",
+                        "type": "String"
+                    },
+                    "sink": {
+                        "path": "$['appointment_time']"
+                    }
+                },
+                {
+                    "source": {
+                        "name": "check_in_time",
+                        "type": "String"
+                    },
+                    "sink": {
+                        "path": "$['check_in_time']"
+                    }
+                },
+                {
+                    "source": {
+                        "name": "rooming_time",
+                        "type": "String"
+                    },
+                    "sink": {
+                        "path": "$['rooming_time']"
+                    }
+                },
+                {
+                    "source": {
+                        "name": "check_out_time",
+                        "type": "String"
+                    },
+                    "sink": {
+                        "path": "$['check_out_time']"
+                    }
+                },
+                {
+                    "source": {
+                        "name": "appointment_type",
+                        "type": "String"
+                    },
+                    "sink": {
+                        "path": "$['appointment_type']"
+                    }
+                },
+                {
+                    "source": {
+                        "name": "chart_close_time",
+                        "type": "String"
+                    },
+                    "sink": {
+                        "path": "$['chart_close_time']"
+                    }
+                }
+            ]}
+	},
+  {'file':'location',
+	'columns':{
+            "type": "TabularTranslator",
+            "mappings": [
+                {
+                    "source": {
+                        "name": "clinic_code",
+                        "type": "String"
+                    },
+                    "sink": {
+                        "path": "$['clinic_code']"
+                    }
+                },
+                {
+                    "source": {
+                        "name": "clinic_name",
+                        "type": "String"
+                    },
+                    "sink": {
+                        "path": "$['clinic_name']"
+                    }
+                },
+                {
+                    "source": {
+                        "name": "address_line1",
+                        "type": "String"
+                    },
+                    "sink": {
+                        "path": "$['address_line1']"
+                    }
+                },
+                {
+                    "source": {
+                        "name": "city",
+                        "type": "String"
+                    },
+                    "sink": {
+                        "path": "$['city']"
+                    }
+                },
+                {
+                    "source": {
+                        "name": "state",
+                        "type": "String"
+                    },
+                    "sink": {
+                        "path": "$['state']"
+                    }
+                },
+                {
+                    "source": {
+                        "name": "zip_code",
+                        "type": "String"
+                    },
+                    "sink": {
+                        "path": "$['zip_code']"
+                    }
+                },
+                {
+                    "source": {
+                        "name": "region",
+                        "type": "String"
+                    },
+                    "sink": {
+                        "path": "$['region']"
+                    }
+                }
+            ]
+        }
+	},
+  {'file':'patient',
+	'columns':{
+            "type": "TabularTranslator",
+            "mappings": [
+                {
+                    "source": {
+                        "name": "patient_id",
+                        "type": "String"
+                    },
+                    "sink": {
+                        "path": "$['patient_id']"
+                    }
+                },
+                {
+                    "source": {
+                        "name": "mr_number",
+                        "type": "String"
+                    },
+                    "sink": {
+                        "path": "$['mr_number']"
+                    }
+                },
+                {
+                    "source": {
+                        "name": "patient_name",
+                        "type": "String"
+                    },
+                    "sink": {
+                        "path": "$['patient_name']"
+                    }
+                },
+                {
+                    "source": {
+                        "name": "date_of_birth",
+                        "type": "String"
+                    },
+                    "sink": {
+                        "path": "$['date_of_birth']"
+                    }
+                },
+                {
+                    "source": {
+                        "name": "age",
+                        "type": "String"
+                    },
+                    "sink": {
+                        "path": "$['age']"
+                    }
+                },
+                {
+                    "source": {
+                        "name": "sex",
+                        "type": "String"
+                    },
+                    "sink": {
+                        "path": "$['sex']"
+                    }
+                },
+                {
+                    "source": {
+                        "name": "phone_number",
+                        "type": "String"
+                    },
+                    "sink": {
+                        "path": "$['phone_number']"
+                    }
+                },
+                {
+                    "source": {
+                        "name": "email",
+                        "type": "String"
+                    },
+                    "sink": {
+                        "path": "$['email']"
+                    }
+                },
+                {
+                    "source": {
+                        "name": "insurance_provider",
+                        "type": "String"
+                    },
+                    "sink": {
+                        "path": "$['insurance_provider']"
+                    }
+                }
+            ]
+        }
+	}
 ]
