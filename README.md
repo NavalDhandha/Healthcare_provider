@@ -7,4 +7,5 @@ Azure pipeline
 
 
 Databricks pipeline
-<img width="1808" height="1126" alt="image" src="https://github.com/user-attachments/assets/bd76f966-c0da-4ee5-a828-c6e3a4a46f38" />
+<img width="1794" height="1166" alt="image" src="https://github.com/user-attachments/assets/eca0a95a-6674-43dc-8c86-a4296c4d7bf8" />
+
