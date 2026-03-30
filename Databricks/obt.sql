@@ -48,3 +48,4 @@ as
     healthcare_provider.bronze.silver_location c
   on
     ap.clinic_code = c.clinic_code
+  where pr.__END_AT is null
